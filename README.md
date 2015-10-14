@@ -1,11 +1,22 @@
-  # ET1-script
-Grundlagen der Elektotechnik - Script vom Sommer 2015
+# ET1-script
+Grundlagen der Elektrotechnik- Script vom Sommer 2015
 
-# Über dieses Dokument
+## Über dieses Dokument
 
 Digitale Version meines Elektrotechnik Scripts.
 
-Benutzung auf einige Gefahr! 
+Benutzung auf einige Gefahr!
+
+
+## Bauen
+
+Wurde mit latex gebaut. Benötigt TeX Live 2015
+
+    pdflatex ET.tex
+
+## Download
+
+
 
 ### Lizenz
 
