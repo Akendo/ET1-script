@@ -1,0 +1,31 @@
+Leistung
+
+
+
+bei $ u(t), i(t)$
+
+damit $ p(t) $ Zeit abhaenig. 
+
+Def $ p(t) = u(t) \cdot i(t) [W] $
+
+mittle Leistung 
+
+Die "Mittlere" Leistung kann auf beliebe Verläufe von $u$,$i$ ueber die Zeit benutzt werden.
+
+$ i(t) = \frac{u(t)}{R} $ damit $ p(t) = \frac{[u(t)]^2}{R} $ poiidische fortgesetzt
+
+
+\begin{tikzpicture}
+
+% horizontal axis
+\draw[->] (0,0) -- (8,0) node[anchor=north] {$t$};
+% ranges
+
+% Our BLock
+\draw[thick] (1,0) -- (1,2) -- (3,2) -- (3,0);
+
+\draw[thick] (5,0) -- (5,2) -- (7,2) -- (7,0);
+\draw [decorate,decoration={mirror,brace,amplitude=9pt},yshift=-1pt](1,-0.1) -- (7,-0.1) node [black,midway,yshift=-0.6cm] {\footnotesize $T_0$}node[midway,yshift=-0.05cm] {\scriptsize Implusedauer $T_1$};
+
+\end{tikzpicture}
+
