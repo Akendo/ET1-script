@@ -1,6 +1,11 @@
   # ET1-script
 Grundlagen der Elektotechnik - Script vom Sommer 2015
 
+# Über dieses Dokument
+
+Digitale Version meines Elektrotechnik Scripts.
+
+Benutzung auf einige Gefahr! 
 
 ### Lizenz
 
