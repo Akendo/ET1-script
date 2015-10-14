@@ -16,6 +16,7 @@ Wurde mit latex gebaut. Benötigt TeX Live 2015
 
 ## Download
 
+Kann [hier](https://github.com/Akendo/ET1-script/raw/master/ET.pdf) herunter geladen werden.
 
 
 ### Lizenz
