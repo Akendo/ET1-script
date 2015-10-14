@@ -7,8 +7,11 @@ Digitale Version meines Elektrotechnik Scripts.
 
 Benutzung auf einige Gefahr!
 
+Alle Unterlagen sind WIP (work in progres).
+Bin immer offen für Vorschläge für Verbesserungen. 
 
-## Bauen
+
+## Build 
 
 Wurde mit latex gebaut. Benötigt TeX Live 2015
 
@@ -18,6 +21,13 @@ Wurde mit latex gebaut. Benötigt TeX Live 2015
 
 Kann [hier](https://github.com/Akendo/ET1-script/raw/master/ET.pdf) herunter geladen werden.
 
+
+## ToDO
+
+ - Aufräumen vom Latex
+ - Strukture
+ - Fehlende Vorlesungen hinzufügen
+ - Austauschen von unnotwendigem Bild mit Latex formel
 
 ### Lizenz
 
