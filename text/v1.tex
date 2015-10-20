@@ -226,7 +226,7 @@ allgemeine Stromquelle:\\
   \end{center}
 \end{figure}
 Muss ein Richtung angegben werden.\\
-
+\\
 \begin{figure}[h!]
   \begin{center}
     \begin{circuitikz}[european]
@@ -235,3 +235,24 @@ Muss ein Richtung angegben werden.\\
      \end{circuitikz}
   \end{center}
 \end{figure}
+\\
+\section{Gesamtstromkreis}
+nötig mindestens: Spannungsqullen und Widerstand.\\
+Platzhalter einfacher Stromkreis\\
+meßbar\\
+\\
+$ R = \frac{U}{I} \rightarrow I=\frac{U}{R} $\\
+$ = \frac{1,5V}{1k\Omega} = 1,5 mA $\\
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+      \draw (0,0)
+      to[battery1=$U_B 1V$] (0,2) % The voltage source
+      to[short] (1,2)
+      to[voltmeter](4,2)
+      to[R={$R_1 1k\Omega$}] (4,0) % The resistor
+      to[short] (0,0);
+     \end{circuitikz}
+  \end{center}
+\end{figure}
+\newpage
