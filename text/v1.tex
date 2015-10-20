@@ -158,3 +158,80 @@ Widerstand $R = \frac{Spannung U}{Strom I} $ Einheit $R[\Omega] = \frac{U[V]}{I[
 Kurz $ R = \frac{U}{I} $\\
 $ 1\Omega = \frac{1V}{1A} $\\
 
+Symbol
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+    \draw (0,0) to[R] (2,0);
+%    \draw (4.5,0.5) node {Kondesator ($\hat{=}$ Kapazität $C$, Einheit "Farad")};
+    \end{circuitikz}
+  \end{center}
+\end{figure}
+$R[\Omega]$\\
+\\
+Die Allgemeine Darstellung ist ein \underline{Schaltbild}, eine Abstraktion, bestehen aus Symbolen.\\
+Der Leiter ist ideal:\\
+
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+    \draw (0,0) to[R=$R_1$] (2,0);
+    \draw (2,0) to[R=$R_2$] (4,0);
+    \end{circuitikz}
+  \end{center}
+\end{figure}
+
+In einem Schaltbild werden die Verbindung zwischen den Bauelementen als idea angenommen. (Länge und Leistungsführung spielt keine Rolle)\\
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+    \draw (0,0) to[R=$R_1$] (3,0);
+    \draw (3,0) to[R=$R_2$] (3,-3);
+    \end{circuitikz}
+  \end{center}
+\end{figure}\\
+\\
+\\
+Weitere Symbole:\\
+allgemeine Spannungsquelle:\\
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+        \draw (0,0) to[V=$U_3$] (0,1);
+        \draw (1.5,0.5) node {$5V$};
+     \end{circuitikz}
+  \end{center}
+\end{figure}
+Polarität erforderlich\\
+\\
+Eingerenzt: Batterie 
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+      \draw (0,0) to [battery1=+] (0,1);
+     \end{circuitikz}
+  \end{center}
+\end{figure}
+Batterie hat eine Eindeutige Zuordnung von + und -.\\
+Wenn nur eine Zahl anschrieben dann sind es in $V$.
+\\
+allgemeine Stromquelle:\\
+\\
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+        \draw (0,0) to[I=$I_4$] (0,2);
+        \draw (1.5,1) node {$1mA$};
+     \end{circuitikz}
+  \end{center}
+\end{figure}
+Muss ein Richtung angegben werden.\\
+
+\begin{figure}[h!]
+  \begin{center}
+    \begin{circuitikz}[european]
+        \draw (0,2) to[I=$I_5$] (0,0);
+        \draw (1.5,1) node {$-1mA$};
+     \end{circuitikz}
+  \end{center}
+\end{figure}
