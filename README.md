@@ -6,12 +6,13 @@ Grundlagen der Elektrotechnik- Script vom Sommer 2015
 Digitale Version meines Elektrotechnik Scripts.
 
 Benutzung auf einige Gefahr!
+Rechtschreibfehler sind vorhanden. Viele Formulieren sind sehr 'spärlich'.
 
 Alle Unterlagen sind WIP (work in progres).
-Bin immer offen für Vorschläge für Verbesserungen. 
+Bin immer offen für Vorschläge für Verbesserungen.
 
 
-## Build 
+## Build
 
 Wurde mit latex gebaut. Benötigt TeX Live 2015
 

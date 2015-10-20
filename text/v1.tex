@@ -70,7 +70,7 @@ Vorsätze
 
 $ 1 =1 $\\
 $ 1000 = 10^3 = k $ (kilo)\\
-Übersicht:
+Übersicht:\\
 $ 10^{-12} = p $ ("pico")\\
 $ 10^{-9} = n $ ("nano")\\
 $ 10^{-6} = \mu $ ("mikro")\\
@@ -88,5 +88,39 @@ $ 10^{12} = T $ ("tera")\\
 \section{Strom}
 
 \underline{Strom} ist die Bewegung von Elektronen. (d.h "Ladung fließt")
+
+Gleichstrom, Konstanter Elektronenfluß.
+
+
+\begin{figure}[h]
+  \begin{center}
+   \begin{tikzpicture}
+    \draw[->] (0,-1) -- (0,3) node[anchor=east] {$I [A]$};
+    \draw[->] (-1,0) -- (6,0) node[anchor=north] {$t$};
+    \draw[thick] (-0.5,2) node[anchor=east] {$2$}-- (5.5,2) ;
+    \draw[thick,dashed] (2,0) -- (2,2);
+    \draw[thick,dashed] (3,0) -- (3,2);
+    \draw [decorate,decoration={mirror,brace,amplitude=9pt},yshift=-1pt](2,-0.1) -- (3,-0.1) node [black,midway,yshift=-0.6cm] {\footnotesize $Delta: T=1s$} ;
+   \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+Aussage: Gleichstrom: $I = 2 \cdot A$\\
+Zeit als ein interval\\
+Zeit in Allgemeinen als Zeitabschnitt Benutzt, dann $T$\\
+\\
+Definition:\\
+Strom $I$ ist fliesende Ladung $Q$ pro Zeit intervall $T$ damit $ I[A] = \frac{Q[A\cdot s]}{T[s]} $\\
+Bespiel ergäbe:\\
+$ Q = I \cdot T$\\
+Wie = $2 A \cdot 1s  = \underline{2 As} $\\
+Üblich: Kurzes Zeit intervall $\Delta T$\\
+\\
+$ I = \frac{\Delta Q}{\Delta T} \rightarrow \frac{d Q}{d t} $  
+$ lim \Delta \rightarrow 0 $ \\
+\\
+Beschreiben von Strömlichen veränderung (nicht gleich Strom) diese Gleichung gilt auch für Zeit veränderliche Ströme.\\
+\\
+(Ableitung der Steigung nder der Zeit = Anstieg).\\
 
 
