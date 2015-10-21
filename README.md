@@ -20,7 +20,7 @@ Wurde mit latex gebaut. Benötigt TeX Live 2015
 
 ## Download
 
-Kann [hier](https://github.com/Akendo/ET1-script/raw/master/ET.pdf) herunter geladen werden.
+Dieses Script kann als PDF [hier](https://github.com/Akendo/ET1-script/raw/master/ET.pdf) herunter geladen werden.
 
 
 ## ToDO
@@ -32,6 +32,6 @@ Kann [hier](https://github.com/Akendo/ET1-script/raw/master/ET.pdf) herunter gel
 
 ### Lizenz
 
-[![](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
+[![](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/deed.de)
 
-Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/)
+Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/deed.de)
